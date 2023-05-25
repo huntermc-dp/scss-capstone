@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  .top {
+    .liberty {
+      height: 80vh;
+      width: 100vw;
+      margin: 0%;
+      img {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        padding: 0;
+      }
+      .nav-bar {
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        .nav-left {
+          margin-top: 40px;
+          margin-right: 20px;
+          a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+          }
+        }
+        .nav-right {
+          margin-top: 40px;
+          margin-right: 10px;
+          a {
+            text-decoration: none;
+            color: white;
+            padding: 12px;
+          }
+          button {
+            color: white;
+            background-color: rgb(214, 15, 115);
+            font-size: 16px;
+            border-radius: 30px;
+            border: 10px solid rgb(214, 15, 115);
+          }
+        }
+      }
+      .welcome-prompt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        h1 {
+          font-size: 64px;
+          font-family: "Roboto", sans-serif;
+          margin-top: 10%;
+        }
+        h4 {
+          font-size: 20px;
+          font-family: "Playfair", serif;
+          margin-top: -0.5%;
+        }
+        button {
+          color: white;
+          background-color: rgb(214, 15, 115);
+          font-size: 24px;
+          border-radius: 10px;
+          border: 10px solid rgb(214, 15, 115);
+          margin-top: 2%;
+        }
+      }
+    }
+  }
+  .shadow-box {
+    background-color: white;
+    margin: 0%;
+    box-shadow: -1px 7px 20px 0px rgba(0, 0, 0, 1);
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2%;
+    border-radius: 10px;
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+    .colors {
+      display: flex;
+      .pink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        p {
+          font-size: 18px;
+        }
+      }
+      .blue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        p {
+          font-size: 18px;
+        }
+      }
+      .green {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+    .scroll-window {
+      display: flex;
+      background-color: #302819;
+      width: 94vw;
+      height: 13vw;
+      padding: 10px;
+      background-image: url("newyorknight.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      img {
+        width: 27vw;
+        // margin-left: 12%;
+        margin-top: 22px;
+        height: 75%;
+        margin-left: -10%;
+      }
+      .written-word {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 25%;
+        color: whitesmoke;
+        margin-top: -4%;
+        p {
+          margin-top: -4%;
+          width: 60%;
+          margin-left: 20px;
+        }
+      }
+    }
+    .title {
+      h1 {
+        color: #3c4858;
+        font-size: 44x;
+      }
+    }
+    .blog {
+      display: flex;
+      height: 20vw;
+      margin-top: 10px;
+      // justify-content: space-between;
+      h5 {
+        font-family: "Roboto", sans-serif;
+      }
+      .first {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 30vw;
+        margin-left: 20%;
+        h3 {
+          display: flex;
+          flex-direction: row;
+        }
+        h5 {
+          color: purple;
+        }
+      }
+      .second {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 25%;
+        margin-left: 25px;
+        width: 30vw;
+        h5 {
+          color: lightskyblue;
+        }
+      }
+      .third {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 25%;
+        margin-left: -20%;
+        width: 30vw;
+      }
+      h5 {
+        color: orangered;
+      }
+    }
+    .bottom-scroll {
+      background-image: url("newyorknight.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      color: whitesmoke;
+
+      h3 {
+        margin-left: 21%;
+        margin-top: -3%;
+      }
+      h5 {
+        margin-left: 21%;
+        margin-bottom: 4%;
+      }
+      h1 {
+        align-items: flex-start;
+        margin-left: 19.9%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+      }
+    }
+  }
+  .bottom {
+    background-color: #323437;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: whitesmoke;
+    .footer-left {
+      margin: 2% 0 2% 22.5%;
+      a {
+        padding: 4px;
+        text-decoration: none;
+        color: whitesmoke;
+      }
+    }
+    .footer-right {
+      margin-right: 20%;
+      a {
+        text-decoration: none;
+        color: whitesmoke;
+      }
+    }
+  }
+}
