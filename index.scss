@@ -196,6 +196,11 @@ body {
         h5 {
           color: lightskyblue;
         }
+        p {
+          a {
+            text-decoration: none;
+          }
+        }
       }
       .third {
         display: flex;

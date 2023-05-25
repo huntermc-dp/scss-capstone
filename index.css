@@ -195,6 +195,9 @@ body .shadow-box .blog .second {
 body .shadow-box .blog .second h5 {
   color: lightskyblue;
 }
+body .shadow-box .blog .second p a {
+  text-decoration: none;
+}
 body .shadow-box .blog .third {
   display: flex;
   justify-content: flex-start;
