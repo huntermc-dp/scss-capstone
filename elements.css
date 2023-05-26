@@ -2,19 +2,81 @@ body .title-bar {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  height: 7vh;
+  width: 100vw;
+  margin: -8px 0 0 -8px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.1);
+}
+body .title-bar a {
+  text-decoration: none;
+  color: #3c4858;
+}
+body .title-bar .nav-left {
+  margin-left: -5%;
+}
+body .title-bar .nav-right a {
+  padding: 4px;
+}
+body .title-bar .nav-right button {
+  color: white;
+  background-color: rgb(214, 15, 115);
+  font-size: 16px;
+  border-radius: 30px;
+  border: 10px solid rgb(214, 15, 115);
 }
 body .pink-box {
   width: 100vw;
   height: 40vh;
-  background-color: hotpink;
+  background-image: linear-gradient(to right, #b32282, #e23671);
+  margin-left: -10px;
+  font-family: "Roboto", sans-serif;
+}
+body .pink-box .top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
+body .pink-box .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  flex-direction: column;
+}
+body .pink-box .bottom h1 {
+  color: white;
+  font-size: 44px;
+}
+body .pink-box .bottom p {
+  color: white;
+  margin-top: -1%;
+}
+body .pink-box .bottom p a {
+  text-decoration: none;
+  color: white;
 }
 body .shadow-box {
   display: flex;
   flex-direction: column;
-  width: 90vw;
+  width: 96vw;
   box-shadow: -1px 7px 20px 0px rgb(0, 0, 0);
-  margin-left: 4%;
+  margin-left: 1.5%;
   margin-top: -2%;
   border-radius: 10px;
   background-color: white;
+  color: #3c4858;
+  align-items: space-between;
+}
+body .shadow-box .inside-shadow-box {
+  width: 40vw;
+  margin: 4% 0 4% 30%;
+  font-family: "Roboto", sans-serif;
+}
+body .shadow-box .inside-shadow-box a {
+  text-decoration: none;
+  color: #f36898;
 }/*# sourceMappingURL=elements.css.map */
