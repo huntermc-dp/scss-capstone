@@ -69,6 +69,7 @@ body .shadow-box {
   display: flex;
   flex-direction: column;
   width: 96vw;
+  height: 80vh;
   box-shadow: -1px 7px 20px 0px rgb(0, 0, 0);
   margin-left: 1.5%;
   margin-top: -2%;
@@ -77,74 +78,38 @@ body .shadow-box {
   color: #3c4858;
   align-items: space-between;
 }
-body .shadow-box .inside-shadow-box {
-  width: 50vw;
-  margin: 4% 0 4% 25%;
-  font-family: "Roboto", sans-serif;
+body .shadow-box .boat img {
+  margin: 5% 0 0 20%;
 }
-body .shadow-box .inside-shadow-box a {
-  text-decoration: none;
-  color: #f36898;
+body .shadow-box .boat h5 {
+  margin-left: 35%;
 }
-body .shadow-box .inside-shadow-box .input-info .pass input {
-  background-color: transparent;
-  color: #eeeeee;
-  outline: none;
-  outline-style: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: solid light #eeeeee 0.25px;
-  padding: 3px 10px;
-  width: 97%;
-  margin-bottom: 20px;
+body .shadow-box .boat h4 {
+  margin-left: 20%;
 }
-body .shadow-box .inside-shadow-box .input-info .buttons {
-  display: flex;
-  margin-top: 20px;
-  font-family: "Roboto", sans-serif;
+body .shadow-box .categories-bar p {
+  margin-left: 20%;
 }
-body .shadow-box .inside-shadow-box .input-info .buttons .button1 button {
-  background-color: #efefef;
-  padding: 12px;
-  margin-right: 4px;
-  border-radius: 5px;
-  border-color: 767676;
-  color: 767676;
-  font-size: 16px;
-}
-body .shadow-box .inside-shadow-box .input-info .buttons .button2 button {
+body .shadow-box .categories-bar p button {
   background-color: #ea1e63;
-  border-color: #ea1e63;
-  padding: 14px;
-  border-radius: 5px;
-  width: 100px;
+  border-radius: 30px;
   color: white;
+  border: 2px solid #ea1e63;
+  font-size: 12px;
 }
-body .shadow-box .inside-shadow-box .table-info table {
-  margin: 20px 0 20px 0;
-  width: 100%;
-  height: 100%;
-  border-collapse: collapse;
+body .shadow-box .categories-bar p a {
+  text-decoration: none;
+  color: #ea1e63;
 }
-body .shadow-box .inside-shadow-box .table-info table tr {
-  display: flex;
-  justify-content: space-around;
-  border: solid;
-  border-width: 1px 0;
-  border-top: none;
+body .shadow-box .categories-bar .sneaky-link {
+  margin: -30px 0 20px 65%;
 }
-body .shadow-box .inside-shadow-box .table-info table tr th {
-  margin-left: -20%;
-  padding: 1%;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: solid lightgrey 0.25px;
+body .shadow-box .categories-bar .sneaky-link i {
+  font-size: 40px;
 }
-body .shadow-box .inside-shadow-box .table-info table tr td {
-  margin-left: -25%;
-  padding: 1%;
+body .shadow-box .categories-bar hr {
+  width: 52vw;
+  margin-left: 20%;
 }
 body .bottom {
   font-family: "Roboto", sans-serif;
@@ -234,4 +199,4 @@ body .footer .footer-right {
 body .footer .footer-right a {
   text-decoration: none;
   color: whitesmoke;
-}/*# sourceMappingURL=elements.css.map */
+}/*# sourceMappingURL=words.css.map */
