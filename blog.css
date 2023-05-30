@@ -1,0 +1,198 @@
+body {
+  background-color: #e5e5e5;
+}
+body .title-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  height: 7vh;
+  width: 100vw;
+  margin: -8px 0 0 -8px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.1);
+}
+body .title-bar a {
+  text-decoration: none;
+  color: #3c4858;
+}
+body .title-bar .nav-left {
+  margin-left: -15%;
+}
+body .title-bar .nav-right {
+  margin-right: -12%;
+}
+body .title-bar .nav-right a {
+  padding: 4px;
+}
+body .title-bar .nav-right button {
+  color: white;
+  background-color: #ea1e63;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 10px solid #ea1e63;
+}
+body .pink-box {
+  width: 100vw;
+  height: 50vh;
+  background-image: linear-gradient(to right, #b32282, #e23671);
+  margin-left: -10px;
+  font-family: "Roboto", sans-serif;
+}
+body .pink-box .top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
+body .pink-box .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  flex-direction: column;
+}
+body .pink-box .bottom h1 {
+  color: white;
+  font-size: 44px;
+  font-weight: 30px;
+}
+body .shadow-box {
+  display: flex;
+  flex-direction: column;
+  width: 96vw;
+  height: 230vh;
+  box-shadow: -1px 7px 20px 0px rgb(0, 0, 0);
+  margin-left: 1.5%;
+  margin-top: -6%;
+  border-radius: 10px;
+  background-color: white;
+  color: #3c4858;
+  align-items: space-between;
+}
+body .shadow-box h5 {
+  margin-left: 10%;
+  margin-top: 6%;
+  font-family: "Roboto", sans-serif;
+}
+body .shadow-box h3 {
+  margin-left: 10%;
+}
+body .shadow-box p {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Roboto", sans-serif;
+}
+body .shadow-box .text-box1 h5 {
+  color: #89229b;
+  font-weight: bold;
+}
+body .shadow-box .text-box1 .words p {
+  color: #999999;
+}
+body .shadow-box .text-box1 .words p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3d4859;
+  font-family: "Open Sans", sans-serif;
+}
+body .shadow-box .text-box2 h5 {
+  color: #01bcd5;
+}
+body .shadow-box .text-box2 .words p {
+  color: #999999;
+}
+body .shadow-box .text-box2 .words p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3d4859;
+  font-family: "Open Sans", sans-serif;
+}
+body .shadow-box .text-box3 h5 {
+  color: #f54336;
+}
+body .shadow-box .text-box3 .words p {
+  color: #999999;
+}
+body .shadow-box .text-box3 .words p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3d4859;
+  font-family: "Open Sans", sans-serif;
+}
+body .shadow-box .text-box4 h5 {
+  color: #ff9901;
+}
+body .shadow-box .text-box4 .words p {
+  color: #999999;
+}
+body .shadow-box .text-box4 .words p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3d4859;
+  font-family: "Open Sans", sans-serif;
+}
+body .shadow-box .text-box5 h5 {
+  color: #ea1e63;
+}
+body .shadow-box .text-box5 .words p {
+  color: #999999;
+}
+body .shadow-box .text-box5 .words p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3d4859;
+  font-family: "Open Sans", sans-serif;
+}
+body .shadow-box .text-box6 h5 {
+  color: #7ac37d;
+}
+body .shadow-box .text-box6 .words p {
+  color: #999999;
+}
+body .shadow-box .text-box6 .words p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3d4859;
+  font-family: "Open Sans", sans-serif;
+}
+body .shadow-box .text-box7 h5 {
+  color: #89229b;
+}
+body .shadow-box .text-box7 .words p {
+  color: #999999;
+}
+body .shadow-box .text-box7 .words p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3d4859;
+  font-family: "Open Sans", sans-serif;
+}
+body .footer {
+  background-color: #323437;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  color: whitesmoke;
+  height: 12vh;
+  width: 100vw;
+  margin-top: -4%;
+}
+body .footer .footer-left {
+  margin: 2% 0 2% 12.5%;
+}
+body .footer .footer-left a {
+  padding: 4px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+body .footer .footer-right {
+  margin-right: 12%;
+}
+body .footer .footer-right a {
+  text-decoration: none;
+  color: whitesmoke;
+}/*# sourceMappingURL=blog.css.map */
